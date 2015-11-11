@@ -15,7 +15,7 @@ body {
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway";
-    font-weight: 300;
+    /*font-weight: 300;*/
     color: #333;
 }
 
@@ -25,11 +25,16 @@ h4 {
 }
 
 h1, h2, h3 {
-    font-family: 'Raleway',sans-serif;
+    /*font-family: 'Fanwood Text', serif;*/
+    font-family: 'Quattrocento', serif;
     margin-top: 30px;
-    font-weight: 100;
+    font-weight: normal;
     text-transform: uppercase;
-    margin-bottom: 30px;
+    /*margin-bottom: 30px;*/
+    letter-spacing: 5px;
+    line-height: 100px;
+    display: block;
+    word-wrap: break-word;
 }
 h1{
 	font-size: 60px;
@@ -41,6 +46,11 @@ a:hover, a:focus {
     -webkit-transition-duration: 0.4s;
        -moz-transition-duration: 0.4s;
             transition-duration: 0.4s;
+}
+
+#lower {
+    font-family: 'Fanwood Text', serif;
+    text-transform: none;
 }
 /******************************************************************************************************************************
 HEADER

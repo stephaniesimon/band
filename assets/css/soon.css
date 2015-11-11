@@ -24,20 +24,32 @@ h4 {
 	font-weight: 400;
 }
 
-h1, h2, h3 {
+h2, h3 {
     /*font-family: 'Fanwood Text', serif;*/
     font-family: 'Quattrocento', serif;
     /*margin-top: 30px;*/
-    font-weight: normal;
+    font-weight: lighter;
     text-transform: uppercase;
     /*margin-bottom: 30px;*/
     letter-spacing: 5px;
     line-height: 100px;
 
 }
-h1{
-	font-size: 90px;
+h1 {
+	font-size: 70px;
 	color: white;
+    font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+    
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Quattrocento', serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 h2{ color: #dc7075;}

@@ -25,14 +25,15 @@ h4 {
 }
 
 h2, h3 {
-    /*font-family: 'Fanwood Text', serif;*/
     font-family: 'Quattrocento', serif;
     /*margin-top: 30px;*/
     font-weight: lighter;
     text-transform: uppercase;
     /*margin-bottom: 30px;*/
     letter-spacing: 5px;
-    line-height: 100px;
+    /*line-height: 100px;*/
+    font-size: 20px;
+    color: white;
 
 }
 h1 {
@@ -41,15 +42,18 @@ h1 {
     font-family: 'Quattrocento', serif;
     text-transform: uppercase;
     letter-spacing: 15px;
-    
+    text-align: center;
+
+
 }
 
 p {
-    font-size: 20px;
+    font-size: 10px;
     color: white;
-    font-family: 'Quattrocento', serif;
+    font-family: 'Fanwood Text', serif;
     text-transform: uppercase;
     letter-spacing: 5px;
+    margin-top: 100px;
 }
 
 h2{ color: #dc7075;}
@@ -59,10 +63,10 @@ a:hover, a:focus {
             transition-duration: 0.4s;
 }
 
-/*#lower {
-    font-family: 'Fanwood Text', serif;
-    text-transform: none;
-}*/
+iframe {
+    margin-right: 20px;
+    margin-top: 100px;
+}
 /******************************************************************************************************************************
 HEADER
 *******************************************************************************************************************************/
@@ -632,7 +636,7 @@ PLUGINS
 .tp-bullets.simplebullets.round .bullet {   
     cursor:pointer;
     position:relative;  
-    border: 3px solid rgba(255, 255, 255, .6);
+    /*border: 3px solid rgba(255, 255, 255, .6);*/
     width:20px; 
     height:20px;  
     margin-right:0px; 
